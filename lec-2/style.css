@@ -1,0 +1,27 @@
+#bg {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 28px;
+  /* color: white; */
+  /* background-color: blue; */
+  /* background-image: linear-gradient(to bottom right, orange, white, green); */
+  /* background-image: radial-gradient(yellow, orange, red); */
+}
+
+#img {
+  height: 50vh;
+  background-image: url(https://media.istockphoto.com/id/1488944909/photo/environment-concept-green-glass-globe-with-a-tree-in-the-forest-with-sunlight-sustainability.webp?b=1&s=170667a&w=0&k=20&c=f89zMjUr7FldJzgS0p8mJyuTxBWgvhv0kBQL7fcSnjs=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background-attachment: fixed;
+
+  background-color: red;
+  background-blend-mode: hard-light;
+}
+
+p {
+  font-weight: bold;
+  font-size: 28px;
+}

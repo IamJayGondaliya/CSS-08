@@ -1,0 +1,54 @@
+.main {
+  height: 300px;
+  background-color: azure;
+  position: relative;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.child {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+
+.child:nth-child(1) {
+  left: 50px;
+  top: 50px;
+  background-color: red;
+}
+.child:nth-child(2) {
+  left: 30px;
+  top: 30px;
+  z-index: 1;
+  background-color: green;
+}
+.child:nth-child(3) {
+  background-color: blue;
+}
+
+.my-img {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80);
+}
+
+.title {
+  top: 150px;
+  left: 20px;
+  color: white;
+  position: absolute;
+}
+
+.all {
+  position: relative;
+}
+
+h1 {
+  position: fixed;
+  z-index: 2;
+}

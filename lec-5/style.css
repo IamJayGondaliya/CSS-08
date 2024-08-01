@@ -1,0 +1,64 @@
+/* Default all selector */
+* {
+}
+
+/* div.first {
+  color: brown;
+} */
+
+div:first-child {
+  color: red;
+}
+
+li:first-child {
+  color: blue;
+}
+
+p::first-letter {
+  /* font-size: 50px; */
+}
+
+p::first-line {
+  color: burlywood;
+}
+
+p::before {
+  content: "This is before - ";
+  color: red;
+}
+
+p::after {
+  content: " - This is after.";
+  color: green;
+}
+
+li:nth-child(3) {
+  color: green;
+}
+
+li:last-child {
+  color: red;
+}
+
+/* Even */
+div:nth-child(2n) {
+  color: yellow;
+}
+
+/* Odd */
+div:nth-child(2n + 1) {
+  color: blue;
+}
+
+div:last-child {
+  color: red;
+}
+/* 
+div:nth-last-child(5n + 1) {
+  color: red;
+} */
+
+::selection {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,41 @@
+#container {
+  background-color: azure;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  max-width: 150px;
+  max-height: 50px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  object-fit: cover;
+
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  text-indent: 50px;
+}
+
+#d1 {
+  clear: both;
+  padding: 10px;
+  border: 1px solid red;
+  width: fit-content;
+  height: fit-content;
+  margin: 5px;
+}
+#d2 {
+  padding: 10px;
+  border: 1px solid green;
+  width: fit-content;
+  margin: 5px;
+}
