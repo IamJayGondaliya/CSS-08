@@ -1,0 +1,39 @@
+#main {
+  position: relative;
+  padding: 10px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-flow: row-reverse wrap; */
+  /* flex-flow: row wrap-reverse; */
+  flex-wrap: wrap;
+  /* HORIZONTAL */
+  /* VERTICAL */
+  /* align-items: flex-end; */
+}
+
+::selection {
+  background-color: black;
+}
+
+div {
+  height: 30px;
+  margin: 5px;
+  padding: 10px;
+  color: white;
+}
+
+div:nth-child(1) {
+  order: 2;
+  background-color: red;
+}
+div:nth-child(2) {
+  order: 3;
+  background-color: green;
+}
+div:nth-child(3) {
+  order: 1;
+  align-self: center;
+  background-color: blue;
+}

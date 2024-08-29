@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255, 255, 154);
+}
+
+nav {
+  padding: 16px;
+}
+
+img.logo {
+  width: 100px;
+}
+
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+}
+
+.route {
+  margin: 10px;
+}
+
+.menu {
+  display: none;
+  height: 80px;
+  width: 80px;
+}
+
+/*
+    min-height
+    max-height
+    min-width
+    max-width
+*/
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: antiquewhite;
+  }
+
+  img.logo {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    background-color: azure;
+  }
+
+  img.logo {
+    width: 60px;
+  }
+
+  .options {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    height: 30px;
+    width: 30px;
+  }
+}
